@@ -1,0 +1,56 @@
+.nav {
+    display: flex;
+    width: 100%;
+    background-color: #adff2f;
+}
+
+.nav-btn, .nav-btn > ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.nav-btn li {
+    padding: 20px;
+    list-style: none;
+}
+
+.nav-btn ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.slider-show {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.slider {
+    width: 60%;
+}
+
+.sliderValue {
+    display: flex;
+    padding: 10px;
+    background-color: blue;
+    width: 10%;
+    border-radius: 10px;
+    justify-content: center;
+    color: white;
+}
+
+.showValue {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 60%;
+}
+
+.changeColor {
+    background-color: red;
+}
